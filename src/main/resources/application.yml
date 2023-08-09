@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/whitelistedip?useSSL=false&allowPublicKeyRetrieval=true&connectTimeout=20000
-    username: ${MYSQL_USERNAME:pcdbuser}
-    password: ${MYSQL_PWD:pcdbuser}
+    username: ${MYSQL_USERNAME:xxx}
+    password: ${MYSQL_PWD:xxx}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -16,6 +16,3 @@ spring:
     name: whitelist-service
   profiles:
     active: ${ACTIVE_PROFILE:dev}
-
-#app:
-#  allowed-ip-addresses: 192.168.0.0/16, 179.80.1.0/24, 127.0.0.2

@@ -2,13 +2,11 @@ package com.ext.whitelist.controller;
 
 import com.ext.whitelist.domain.HostDetails;
 import com.ext.whitelist.domain.HostRepository;
-import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.*;
 import java.time.Instant;
 import java.util.Optional;
 
